@@ -25,18 +25,12 @@ bool ControllerAI::initialise()
     return true;
 }
 
-static float predict_ball_position()
-{
-    return (temp_ball_center - temp_ball_destination).y;
-}
-
 void ControllerAI::update(float deltaTime)
 {
     if (m_pClock->getElapsedTime().asSeconds() >= 0.2f)
     {
         const sf::Vector2f& pitchSize = m_pGame->getPitch()->getPitchSize();
-        m_targetLocationY = predict_ball_position();
-        //(rand() % 100) * 0.01f * (pitchSize.y - m_pPaddle->getPaddleHeight());
+        m_targetLocationY = (rand() % 100) * 0.01f * (pitchSize.y - m_pPaddle->getPaddleHeight());
         m_pClock->restart();
     }
     

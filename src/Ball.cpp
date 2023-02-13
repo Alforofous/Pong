@@ -282,8 +282,6 @@ void Ball::update(float deltaTime)
 
     newPosition = check_against_pitch(newPosition, BallRadius, pitchSize.y, &m_velocity.y);
 
-    temp_ball_center = lastPosition;
-    temp_ball_destination = newPosition;
 
     // check ball against paddles
     if (check_against_paddles(newPosition))
