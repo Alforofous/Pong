@@ -1,12 +1,12 @@
 # Supercell Coding Test
-Hi! This is the base code structure for the Supercell coding test.
-The code below is a very basic and intensionally broken version of the class game [**PONG**](https://en.wikipedia.org/wiki/Pong).
-## Info
-This C++ code base is built using  [SFML](https://www.sfml-dev.org/index.php) and is configured to generate XCode and Visual Studio projects.
-> The libraries for SFML are embedded in the repo so shouldn't require any further setup or downloading from the the SFML website.
 
-[CMake](https://cmake.org/) version 3.22 or later is required to generate the projects.  
->The project is configured for a limited purpose (i.e. to generate an XCode or VS project easily).  It is not setup to build within CMake or be installed etc.
+<img src="pong.png"></img>
+
+# What changed?
+
+I fixed up a good portion of code and made a cool side objective to the game. Whenever a player hits side of screen they get block to own side. The more blocks player owns, the faster the ball moves. Code I have written is in C style, so it was kind of hard to combine it with C++ structures. Overall, I think I worked pretty efficiently and all the aditions I made to the program are seem scalable and easy to read.
+
+For controls use WASD. Have fun!
 
 ## How to generate project files
 
