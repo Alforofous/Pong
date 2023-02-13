@@ -4,7 +4,7 @@
 
 # What changed?
 
-I fixed up a good portion of code and made a cool side objective to the game. Whenever a player hits side of screen they get block to own side. The more blocks player owns, the faster the ball moves. Code I have written is in C style, so it was kind of hard to combine it with C++ structures. Overall, I think I worked pretty efficiently and all the aditions I made to the program are seem scalable and easy to read.
+I fixed up a good portion of code and made a cool side objective to the game. Whenever a player hits side of screen they get block to own side. The more blocks player owns, the faster the ball moves. Code I have written is in C style, so it was kind of hard to combine it with C++ structures. Overall, I think I worked pretty efficiently and all the aditions I made to the program are scalable and easy to read.
 
 For controls use WASD. Have fun!
 
